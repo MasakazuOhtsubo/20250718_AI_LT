@@ -1,0 +1,21 @@
+{
+  "name": "temp-slides",
+  "version": "1.0.0",
+  "description": "Marp slide presentation",
+  "main": "slides.md",
+  "scripts": {
+    "build": "marp slides.md -o dist/index.html --html",
+    "dev": "marp slides.md -w --html",
+    "preview": "marp slides.md -s ."
+  },
+  "keywords": [
+    "marp",
+    "slides",
+    "presentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
