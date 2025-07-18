@@ -29,3 +29,7 @@ yarn-error.log*
 .cache/
 .npm/
 .yarn/
+
+# Marp generated files
+*.html
+slides.html
